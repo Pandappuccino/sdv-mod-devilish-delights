@@ -1,0 +1,98 @@
+{
+	"Format": "2.6.0",
+	
+	"ConfigSchema": {
+		"Seasonal Designs": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Changes Teivel's outfits based on the season. If false, defaults to his Summer attire."
+		}
+	},
+	
+	"Changes": [
+		{
+			"LogName": "Initialize mod",
+			"Action": "Load",
+			"Target": "Characters/Dialogue/Teivel, Characters/Schedules/Teivel, Strings/Schedules/Teivel",
+			"FromFile": "assets/data/blank.json"
+		},
+		
+		{
+			"LogName": "Load disposition files",
+			"Action": "Include",
+			"FromFile": "assets/data/disposition.json"
+		},
+		
+		{
+			"LogName": "Load graphics",
+			"Action": "Include",
+			"FromFile": "assets/data/graphics.json"
+		},
+		
+		{
+			"LogName": "Load maps and patches",
+			"Action": "Include",
+			"FromFile": "assets/data/maps.json"
+		},
+		
+		{
+			"LogName": "Load dialogue",
+			"Action": "Include",
+			"FromFile": "assets/data/dialogue.json"
+		},
+		
+		{
+			"LogName": "Load animations",
+			"Action": "Include",
+			"FromFile": "assets/data/animations.json"
+		},
+		
+		{
+			"LogName": "Load schedule",
+			"Action": "Include",
+			"FromFile": "assets/data/schedules.json"
+		},
+		
+		{
+			"LogName": "Load strings",
+			"Action": "Include",
+			"FromFile": "assets/data/strings.json"
+		},
+		
+		{
+			"LogName": "Load new items",
+			"Action": "Include",
+			"FromFile": "assets/data/items.json"
+		},
+		
+		{
+			"LogName": "Load new recipes",
+			"Action": "Include",
+			"FromFile": "assets/data/recipes.json"
+		},
+		
+		{
+			"LogName": "Load gift tastes",
+			"Action": "Include",
+			"FromFile": "assets/data/gifts.json"
+		},
+		
+		{
+			"LogName": "Load event data",
+			"Action": "Include",
+			"FromFile": "assets/data/events.json"
+		},
+		
+		{
+			"LogName": "Load quest data",
+			"Action": "Include",
+			"FromFile": "assets/data/quests.json"
+		},
+		
+		{
+			"LogName": "Load shop data",
+			"Action": "Include",
+			"FromFile": "assets/data/shops.json"
+		}
+	]
+}
