@@ -1,0 +1,28 @@
+{
+	"Name": "[CP] Devilish Delights - Teivel's Patisserie",
+	"Author": "Pandappuccino",
+	"Version": "1.0.0",
+	"Description": "Adds a new shop and NPC, along with new dessert items, to Stardew Valley.",
+	"UniqueID": "Pandappuccino.Aelin",
+	"UpdateKeys": ["Nexus:35069","Github:Pandappuccino/sdv-mod-devilish-delights"],
+	"ContentPackFor": {
+		"UniqueID": "Pathoschild.ContentPatcher"
+	},
+	"Dependencies": [
+		{
+			"UniqueID": "spacechase0.GenericModConfigMenu",
+			"Required": false
+		},
+		
+		// GAMEPLAY ADDITIONS AND NPCS
+		{
+			"UniqueID": "JoXW.MobilePhone",
+			"Required": false
+		},
+		
+		{
+			"UniqueID": "FlashShifter.StardewValleyExpandedCP",
+			"Required": false
+		}
+	]
+}
