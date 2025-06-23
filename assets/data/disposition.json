@@ -1,0 +1,58 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/Characters",
+			"Entries": {
+				"Teivel": {
+					"DisplayName": "Teivel",
+					"BirthSeason": "Spring",
+					"BirthDay": "12",
+					"HomeRegion": "Town",
+					"Language": "Default",
+					"Age": "Adult",
+					"Gender": "Male",
+					"Manner": "Polite",
+					"SocialAnxiety": "Outgoing",
+					"Optimism": "Positive",
+					"IsDarkSkinned": true,
+					"CanSocialize": true,
+					"CanBeRomanced": false,
+					"LoveInterest": null,
+					"CanReceiveGifts": true,
+					"CanGreetNearbyCharacters": true,
+					"CanCommentOnPurchasedShopItems": true,
+					"CanVisitIsland": false,
+					"IntroductionsQuest": true,
+					"ItemDeliveryQuests": true,
+					"PerfectionScore": false,
+					"EndSlideShow": "TrailingGroup",
+					"DumpsterDiveFriendshipEffect": -25,
+					"DumpsterDiveEmote": null,
+					"FlowerDanceCanDance": false,
+					"WinterStarParticipant": false,
+					"UnlockConditions": "DAYS_PLAYED 5",
+					"SpawnIfMissing": true,
+					"Home": [
+						"Id": "Default",
+						"Condition": null,
+						"Location": "AelinHouseInterior",
+						"Tile": {
+							"X": 0,
+							"Y": 0
+						},
+						"Direction": "left"
+					],
+					"ShakePortraits": [
+						5
+					],
+					"HiddenProfileEmoteSound": "fairy_heal",
+					"HiddenProfileEmoteDuration": null,
+					"HiddenProfileEmoteStartFrame": 16,
+					"HiddenProfileEmoteFrameCount": 5,
+					"HiddenProfileEmoteFrameDuration": 200.0
+				}
+			}
+		}
+	]
+}
