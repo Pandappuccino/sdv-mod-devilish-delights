@@ -1,8 +1,8 @@
 # Devilish Delights - Teivel's Patisserie
-Sinfully delicious delights are a rarity in the valley, but there's a humble baker looking to correct this! With a small stall set up in Pelican Town, the sweet-as-sugar merchant Teivel has made it his goal to bring sweets to Stardew Valley!
+Sinfully delicious delights are a rarity in the valley, but there's a humble baker looking to correct this! With a small stall set up in Pelican Town, the sweet-as-sugar merchant Teivel has made it his goal to bring sweets to Stardew Valley! Of course, not all is what it seems with this sweet baker...
 
 ## Features
-- A new (non-romanceable) NPC, Teivel!
+- A new (non-romanceable) NPC, Teivel, with custom gift tastes and events!
 - A new shop with seasonal rotating stock!
 - New sweets-themed items and recipes!
 
